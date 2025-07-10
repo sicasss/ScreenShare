@@ -45,8 +45,8 @@ Write-Host -ForegroundColor Green "   ██╔══██╗██║░░░
 Write-Host -ForegroundColor Green "   ██║░░██║╚██████╔╝██║░╚███║  ███████╗╚█████╔╝╚██████╔╝  ██████╔╝╚█████╔╝██║░░██║██║░╚███║██║░╚███║███████╗██║░░██║";
 Write-Host -ForegroundColor Green "   ╚═╝░░╚═╝░╚═════╝░╚═╝░░╚══╝  ╚══════╝░╚════╝░░╚═════╝░  ╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝";
 Write-Host "";
-Write-Host -ForegroundColor Blue "-By sicasss" -NoNewLine
-Write-Host -ForegroundColor Red "discord.gg/KuMnDSR7wT";
+Write-Host -ForegroundColor Blue "-By whyemi " -NoNewLine
+Write-Host -ForegroundColor White "discord.gg/KuMnDSR7wT";
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
@@ -78,8 +78,8 @@ $Bam = Foreach ($Sid in $Users){$u++
             
         foreach($rp in $rpath){
            $BamItems = Get-Item -Path "$($rp)UserSettings\$Sid" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Property
-           Write-Host -ForegroundColor Red "Extracting " -NoNewLine
-           Write-Host -ForegroundColor Blue "$($rp)UserSettings\$SID"
+           Write-Host -ForegroundColor Green "Extracting " -NoNewLine
+           Write-Host -ForegroundColor White "$($rp)UserSettings\$SID"
            $bi = 0 
 
             Try{
