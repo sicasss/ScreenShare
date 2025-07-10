@@ -37,16 +37,24 @@ function Get-Signature {
 Clear-Host
 
 Write-Host "";
-Write-Host "";                                    
-Write-Host -ForegroundColor Green "   ██████╗░██╗░░░██╗███╗░░██╗  ██╗░░░░░░█████╗░░██████╗░  ░██████╗░█████╗░░█████╗░███╗░░██╗███╗░░██╗███████╗██████╗░";
-Write-Host -ForegroundColor Green "   ██╔══██╗██║░░░██║████╗░██║  ██║░░░░░██╔══██╗██╔════╝░  ██╔════╝██╔══██╗██╔══██╗████╗░██║████╗░██║██╔════╝██╔══██╗";
-Write-Host -ForegroundColor Green "   ██████╔╝██║░░░██║██╔██╗██║  ██║░░░░░██║░░██║██║░░██╗░  ╚█████╗░██║░░╚═╝███████║██╔██╗██║██╔██╗██║█████╗░░██████╔╝";
-Write-Host -ForegroundColor Green "   ██╔══██╗██║░░░██║██║╚████║  ██║░░░░░██║░░██║██║░░╚██╗  ░╚═══██╗██║░░██╗██╔══██║██║╚████║██║╚████║██╔══╝░░██╔══██╗";
-Write-Host -ForegroundColor Green "   ██║░░██║╚██████╔╝██║░╚███║  ███████╗╚█████╔╝╚██████╔╝  ██████╔╝╚█████╔╝██║░░██║██║░╚███║██║░╚███║███████╗██║░░██║";
-Write-Host -ForegroundColor Green "   ╚═╝░░╚═╝░╚═════╝░╚═╝░░╚══╝  ╚══════╝░╚════╝░░╚═════╝░  ╚═════╝░░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝";
+Write-Host "";  
+
+______                    ______  __                 ___________  ___________
+___  / _____________ _    ___  / / /_____ ______________  /__   |/  /_  ____/
+__  /  _  __ \_  __ `/    __  /_/ /_  __ `/__  /_  _ \_  /__  /|_/ /_  /     
+_  /___/ /_/ /  /_/ /     _  __  / / /_/ /__  /_/  __/  / _  /  / / / /___   
+/_____/\____/_\__, /      /_/ /_/  \__,_/ _____/\___//_/  /_/  /_/  \____/   
+             /____/                                                          
+                                 
+Write-Host -ForegroundColor Blue "   ______                    ______  __                 ___________  ___________";
+Write-Host -ForegroundColor Blue "   ___  / _____________ _    ___  / / /_____ ______________  /__   |/  /_  ____/";
+Write-Host -ForegroundColor Blue "   __  /  _  __ \_  __ `/    __  /_/ /_  __ `/__  /_  _ \_  /__  /|_/ /_  /     ";
+Write-Host -ForegroundColor Blue "   _  /___/ /_/ /  /_/ /     _  __  / / /_/ /__  /_/  __/  / _  /  / / / /__    ";
+Write-Host -ForegroundColor Blue "   /_____/\____/_\__, /      /_/ /_/  \__,_/ _____/\___//_/  /_/  /_/  \____/   ";
+Write-Host -ForegroundColor Blue "                /____/                                                          ";
 Write-Host "";
-Write-Host -ForegroundColor Blue "-By whyemi " -NoNewLine
-Write-Host -ForegroundColor White "discord.gg/KuMnDSR7wT";
+Write-Host -ForegroundColor Blue "-By whyemi, the worst ss manager :D " -NoNewLine
+Write-Host -ForegroundColor White "discord.gg/hazelmc";
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
@@ -78,8 +86,8 @@ $Bam = Foreach ($Sid in $Users){$u++
             
         foreach($rp in $rpath){
            $BamItems = Get-Item -Path "$($rp)UserSettings\$Sid" -ErrorAction SilentlyContinue | Select-Object -ExpandProperty Property
-           Write-Host -ForegroundColor Green "Extracting " -NoNewLine
-           Write-Host -ForegroundColor White "$($rp)UserSettings\$SID"
+           Write-Host -ForegroundColor Red "Extracting " -NoNewLine
+           Write-Host -ForegroundColor Blue "$($rp)UserSettings\$SID"
            $bi = 0 
 
             Try{
@@ -128,4 +136,4 @@ $Bam | Out-GridView -PassThru -Title "BAM key entries $($Bam.count)  - User Time
 $sw.stop()
 $t = $sw.Elapsed.TotalMinutes
 Write-Host ""
-Write-Host "Elapsed Time $t Minutes" -ForegroundColor Yellow
+Write-Host "Elapsed Time $t Minutes" -ForegroundColor Purple
