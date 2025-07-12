@@ -8,7 +8,7 @@ $reset = "${esc}[0m"
 
 Write-Output ""
 Write-Output ""
-Write-Output "${Cyan}By whyemi${reset}"
+Write-Output "${Cyan}By wxymi${reset}"
 Write-Output ""
 Write-Host -ForegroundColor Blue  " __  __  _        _        ___  ___"
 Write-Host -ForegroundColor Blue  "|  \/  |(_) _ _  (_)      / __|/ __|"
