@@ -45,8 +45,8 @@ Write-Host -ForegroundColor Blue "   _  /___/ /_/ /  /_/ /     _  __  / / /_/ /_
 Write-Host -ForegroundColor Blue "   /_____/\____/_\__, /      /_/ /_/  \__,_/ _____/\___//_/  /_/  /_/  \____/   ";
 Write-Host -ForegroundColor Blue "                /____/                                                          ";
 Write-Host "";
-Write-Host -ForegroundColor Blue "-By whyemi, the worst ss manager, Part of the code extracted from RedLotus, credits to them ;)" -NoNewLine
-Write-Host -ForegroundColor White "discord.gg/hazelmc";
+Write-Host -ForegroundColor Blue "-By wxymi, the worst ss manager, Part of the code extracted from RedLotus, credits to them ;)" -NoNewLine
+Write-Host -ForegroundColor White "   -discord.gg/hazelmc";
 Write-Host "";
 
 function Test-Admin {;$currentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent());$currentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator);}
