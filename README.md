@@ -10,5 +10,5 @@ LogHazelMC
 
 "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass; Invoke-Expression (Invoke-RestMethod 'https://raw.githubusercontent.com/sicasss/ScreenShare/refs/heads/main/HazelMC.ps1')"
 
-Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted; & Invoke-Expression (Invoke-RestMethod ('[https://raw.githubusercontent.com/sicasss/ScreenShare/refs/heads/main/HazelMC.ps1](https://raw.githubusercontent.com/sicasss/ScreenshareScripts/refs/heads/main/press.ps1)')
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted; & Invoke-Expression (Invoke-RestMethod ('https://raw.githubusercontent.com/sicasss/ScreenshareScripts/refs/heads/main/press.ps1')
 
