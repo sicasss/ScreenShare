@@ -42,7 +42,6 @@ Write-Host -ForegroundColor Blue "Edited by corregir, originally made by Diablos
 Write-Host "";
 Write-Host -ForegroundColor Red " Tranquilo usuario, estas en manos de los expertos. ";
 Write-Host "";
-Write-Host -ForegroundColor Red " ░██████╗░█████╗░██╗░░░░░░█████╗░  ██╗░░░░░███████╗░██████╗░███████╗███╗░░██╗██████╗░░██████╗ ";
 Write-Host -ForegroundColor Red " _________                    __________       __________ ";
 Write-Host -ForegroundColor Red " \_   ___ \  _______  _______ \______   \___  _\______   \ ";
 Write-Host -ForegroundColor Red " /    \  \/ /  _ \  \/ /\__  \ |     ___/\  \/ /|     ___/ ";
@@ -50,7 +49,7 @@ Write-Host -ForegroundColor Red " \     \___(  <_> )   /  / __ \|    |     \   /
 Write-Host -ForegroundColor Red "  \______  /\____/ \_/  (____  /____|      \_/  |____|  ";  
 Write-Host -ForegroundColor Red "        \/                  \/ ";                           
 Write-Host "";
-Write-Host -ForegroundColor Cyan "Mi palabra es un lazo virtual forjado en código: en cada SS permaneceré firme, forjando una hermandad digital que perdurará en los confines de la red. ";
+Write-Host -ForegroundColor Blue "Mi palabra es un lazo virtual forjado en código: en cada SS permaneceré firme, forjando una hermandad digital que perdurará en los confines de la red. ";
 Write-Host "";
 Write-Host -ForegroundColor DarkGreen "https://discord.gg/HpxfhJJfuq";
 Write-Host "";
