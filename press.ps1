@@ -49,9 +49,9 @@ Write-Host -ForegroundColor Red " \     \___(  <_> )   /  / __ \|    |     \   /
 Write-Host -ForegroundColor Red "  \______  /\____/ \_/  (____  /____|      \_/  |____|  ";  
 Write-Host -ForegroundColor Red "        \/                  \/ ";                           
 Write-Host "";
-Write-Host -ForegroundColor Blue "Mi palabra es un lazo virtual forjado en código: en cada SS permaneceré firme, forjando una hermandad digital que perdurará en los confines de la red. ";
+Write-Host -ForegroundColor Red "Mi palabra es un lazo virtual forjado en código: en cada SS permaneceré firme, forjando una hermandad digital que perdurará en los confines de la red. ";
 Write-Host "";
-Write-Host -ForegroundColor DarkGreen "https://discord.gg/HpxfhJJfuq";
+Write-Host -ForegroundColor Red "https://discord.gg/HpxfhJJfuq";
 Write-Host "";
 Write-Host "";
 
